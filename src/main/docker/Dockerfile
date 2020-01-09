@@ -9,6 +9,8 @@ RUN curl -LOk https://github.com/cedricms/database-version-controle-demo/archive
     && unzip ./master.zip -d . \
     && rm ./master.zip
 
+RUN mv /database-version-controle-demo-master /database-version-controle-demo
+
 RUN /mvnw -f /database-version-controle-demo/pom.xml clean install
 
 #ENV RELEASE_DATE 2017-04-23
