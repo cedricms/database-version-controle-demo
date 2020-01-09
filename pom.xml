@@ -11,6 +11,14 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.openanzo.dependencies</groupId>
+            <artifactId>org.h2</artifactId>
+            <version>1.1.115</version>
+        </dependency>
+    </dependencies>
+
     <profiles>
         <profile>
             <id>DbMaintain</id>
@@ -34,8 +42,11 @@
                         <executions>
                             <execution>
                                 <goals>
-                                    <goal>createScriptArchive</goal>
+                                    <goal>updateDatabase</goal>
                                 </goals>
+                                <configuration>
+                                    <scriptLocations>./src/main/dbMaintain/votreSchema/1.0.0/</scriptLocations>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
