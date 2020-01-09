@@ -1,5 +1,16 @@
 FROM buildo/h2database
 
+COPY ./mvnw /mvnw
+ADD ./.mvn /.mvn
+
+ENV JAVA_TOOL_OPTIONS -Dhttps.protocols=TLSv1.2
+
+RUN curl -LOk https://github.com/cedricms/database-version-controle-demo/archive/master.zip\
+    && unzip ./master.zip -d . \
+    && rm ./master.zip
+
+#RUN /mvnw
+
 #ENV RELEASE_DATE 2017-04-23
 #ENV H2DATA /h2-data
 
