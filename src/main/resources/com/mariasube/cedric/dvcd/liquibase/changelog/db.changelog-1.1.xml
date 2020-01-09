@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet author="cms" id="changelog-1.1">
+        <insert tableName="lb_user">
+            <column name="id" value="1"/>
+            <column name="first_name" value="Lion"/>
+            <column name="last_name" value="El'Jonson"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="3"/>
+            <column name="first_name" value="Fulgrim"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="4"/>
+            <column name="first_name" value="Perturabo"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="5"/>
+            <column name="first_name" value="Jaghataï"/>
+            <column name="last_name" value="Khan"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="6"/>
+            <column name="first_name" value="Leman"/>
+            <column name="last_name" value="Russ"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="7"/>
+            <column name="first_name" value="Rogal"/>
+            <column name="last_name" value="Dorn"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="8"/>
+            <column name="first_name" value="Konrad"/>
+            <column name="last_name" value="Curze"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="9"/>
+            <column name="first_name" value="Sanguinius"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="10"/>
+            <column name="first_name" value="Ferrus"/>
+            <column name="last_name" value="Manus"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="11"/>
+            <column name="first_name" value="Angron"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="13"/>
+            <column name="first_name" value="Roboute"/>
+            <column name="last_name" value="Guilliman"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="14"/>
+            <column name="first_name" value="Mortarion"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="15"/>
+            <column name="first_name" value="Magnus"/>
+            <column name="last_name" value="the Red"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="16"/>
+            <column name="first_name" value="Horus"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="17"/>
+            <column name="first_name" value="Logar"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="18"/>
+            <column name="first_name" value="Vulkan"/>
+            <column name="last_name" value=""/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="19"/>
+            <column name="first_name" value="Corvus"/>
+            <column name="last_name" value="Corax"/>
+        </insert>
+        <insert tableName="lb_user">
+            <column name="id" value="20"/>
+            <column name="first_name" value="Alpharius"/>
+            <column name="last_name" value="Omegon"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

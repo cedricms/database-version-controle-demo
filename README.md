@@ -19,5 +19,5 @@ The connection parameters are :
 
 ### Running the examples
 * DbMaintain : `/mvnw -f /database-version-controle-demo/pom.xml clean install -P DbMaintain`;
-* Liquibase : ;
+* Liquibase : `/mvnw -f /database-version-controle-demo/pom.xml clean install -P Liquibase`;
 * Flyway : .

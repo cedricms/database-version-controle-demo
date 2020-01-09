@@ -1,1 +1,1 @@
-docker build -f src/main/docker/Dockerfile -t database-version-controle-demo .
+docker build -f src/main/resources/docker/Dockerfile -t database-version-controle-demo .
