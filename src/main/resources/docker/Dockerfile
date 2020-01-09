@@ -1,4 +1,4 @@
-FROM buildo/h2database
+FROM tumcyk/h2-database
 
 COPY ./mvnw /mvnw
 ADD ./.mvn /.mvn
