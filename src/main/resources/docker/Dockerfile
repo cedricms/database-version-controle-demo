@@ -9,7 +9,6 @@ RUN curl -LOk https://github.com/cedricms/database-version-controle-demo/archive
     && unzip ./master.zip -d . \
     && rm ./master.zip
 
-RUN cd ./database-version-controle-demo-master
-RUN chmod 744 ./mvnw
-RUN chmod 744 ./dbMaintain.sh
-RUN chmod 744 ./liquibase.sh
+RUN chmod 744 ./database-version-controle-demo-master/mvnw
+RUN chmod 744 ./database-version-controle-demo-master/dbMaintain.sh
+RUN chmod 744 ./database-version-controle-demo-master/liquibase.sh
