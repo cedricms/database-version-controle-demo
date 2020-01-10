@@ -29,24 +29,14 @@
                         <artifactId>dbmaintain-maven-plugin</artifactId>
                         <version>2.7.2</version>
                         <configuration>
-                            <databases>
-                                <database>
-                                    <driverClassName>org.h2.Driver</driverClassName>
-                                    <url>jdbc:h2:my-db-name</url>
-                                    <userName></userName>
-                                    <password></password>
-                                    <schemaNames>PUBLIC</schemaNames>
-                                </database>
-                            </databases>
+                            <configFile>./src/main/dbMaintain/dbMaintain.properties</configFile>
+                            <scriptLocations>./src/main/dbMaintain/votreSchema/1.0.0/</scriptLocations>
                         </configuration>
                         <executions>
                             <execution>
                                 <goals>
                                     <goal>updateDatabase</goal>
                                 </goals>
-                                <configuration>
-                                    <scriptLocations>./src/main/dbMaintain/votreSchema/1.0.0/</scriptLocations>
-                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
