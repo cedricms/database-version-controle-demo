@@ -4,6 +4,7 @@ FROM tumcyk/h2-database
 RUN apt-get update && apt-get install -y curl
 
 ENV JAVA_TOOL_OPTIONS -Dhttps.protocols=TLSv1.2
+ENV DBMAINTAIN_JDBC_DRIVER /usr/lib/h2/bin/h2-1.4.193.jar
 
 RUN curl -LOk https://github.com/cedricms/database-version-controle-demo/archive/master.zip \
     && unzip ./master.zip -d . \
