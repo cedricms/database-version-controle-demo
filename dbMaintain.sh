@@ -1,1 +1,1 @@
-/mvnw -f /database-version-controle-demo/pom.xml clean install -P DbMaintain
+./mvnw clean install -P DbMaintain
