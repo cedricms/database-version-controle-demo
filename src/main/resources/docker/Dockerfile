@@ -12,3 +12,4 @@ RUN curl -LOk https://github.com/cedricms/database-version-controle-demo/archive
 RUN chmod 744 ./database-version-controle-demo-master/mvnw
 RUN chmod 744 ./database-version-controle-demo-master/dbMaintain.sh
 RUN chmod 744 ./database-version-controle-demo-master/liquibase.sh
+RUN chmod 744 ./database-version-controle-demo-master/flyway.sh
