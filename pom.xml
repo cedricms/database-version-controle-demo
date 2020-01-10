@@ -29,8 +29,8 @@
                         <artifactId>dbmaintain-maven-plugin</artifactId>
                         <version>2.7.2</version>
                         <configuration>
-                            <configFile>./src/main/dbMaintain/dbMaintain.properties</configFile>
-                            <scriptLocations>./src/main/dbMaintain/votreSchema/1.0.0/</scriptLocations>
+                            <configFile>./src/main/resources/dbMaintain/dbMaintain.properties</configFile>
+                            <scriptLocations>./src/main/resources/dbMaintain/votreSchema/1.0.0/</scriptLocations>
                         </configuration>
                         <executions>
                             <execution>
