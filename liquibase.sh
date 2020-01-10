@@ -1,0 +1,1 @@
+/mvnw -f /database-version-controle-demo/pom.xml clean install -P Liquibase
