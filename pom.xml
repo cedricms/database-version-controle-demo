@@ -35,7 +35,7 @@
                                     <url>jdbc:h2:my-db-name</url>
                                     <userName></userName>
                                     <password></password>
-                                    <schemaNames></schemaNames>
+                                    <schemaNames>PUBLIC</schemaNames>
                                 </database>
                             </databases>
                         </configuration>

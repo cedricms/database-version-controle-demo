@@ -1,1 +1,1 @@
-./mvnw clean install -P DbMaintain
+./mvnw dbmaintain:updateDatabase -P DbMaintain
