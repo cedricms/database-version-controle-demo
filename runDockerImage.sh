@@ -1,1 +1,1 @@
-docker run -p 8082:8082 --interactive database-version-controle-demo
+docker run -p 8082:8082 --interactive database-version-controle-demo &
