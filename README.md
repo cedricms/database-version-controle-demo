@@ -1,6 +1,9 @@
 # database-version-controle-demo
 A basic setup to demo solutions such as DbMaintain, Liquibase, or Flyway
 
+## Technical dependencies
+As is, the project runs on Java 8. Depending on the solutions, it may be needed to upgrade the version.
+
 ## Quick start
 ### Building the image
 `./buildDockerImage.sh`
@@ -14,7 +17,7 @@ The H2 web-client can be found here : `http://localhost:8082/`
 
 The connection parameters are : 
 * Driver Class: org.h2.Driver
-* JDBC URL: jdbc:h2:my-db-name 
+* JDBC URL: jdbc:h2:my-db-name
 * User Name: (empty)
 * Password: (empty)
 
@@ -22,6 +25,6 @@ The connection parameters are :
 `./connectToDockerImage.sh`
 
 ### Running the examples
-* DbMaintain : `/mvnw -f /database-version-controle-demo/pom.xml clean install -P DbMaintain`;
-* Liquibase : `/mvnw -f /database-version-controle-demo/pom.xml clean install -P Liquibase`;
-* Flyway : .
+* DbMaintain : `./dbMaintain.sh`;
+* Liquibase : `./liquibase.sh`;
+* Flyway : `./flyway.sh`.

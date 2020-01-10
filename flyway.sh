@@ -1,0 +1,1 @@
+./mvnw flyway:migrate -P Flyway

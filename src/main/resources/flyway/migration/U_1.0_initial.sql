@@ -1,0 +1,1 @@
+DROP TABLE fw_user;
