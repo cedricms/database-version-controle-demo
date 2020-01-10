@@ -1,1 +1,1 @@
-docker rmi database-version-controle-demo
+docker rmi -f database-version-controle-demo
