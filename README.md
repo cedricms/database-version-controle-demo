@@ -18,7 +18,7 @@ The H2 web-client can be found here : `http://localhost:8082/`
 The connection parameters are : 
 * Driver Class: org.h2.Driver
 * JDBC URL: jdbc:h2:my-db-name
-* User Name: (empty)
+* User Name: sa
 * Password: (empty)
 
 **In order to execute the DbMaintain demo, the following script must be run first (sorry, it's a fallback solution) :**
