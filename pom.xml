@@ -41,6 +41,7 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <!-- Necessary dependency for DbMaintain, otherwise the Driver is not found. -->
                         <dependencies>
                             <dependency>
                                 <groupId>com.h2database</groupId>
