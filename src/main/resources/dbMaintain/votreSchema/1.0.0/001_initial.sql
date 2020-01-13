@@ -1,4 +1,4 @@
-CREATE SCHEMA dbmaintain_schema;
+-- CREATE SCHEMA dbmaintain_schema;
 
 CREATE TABLE dbmaintain_schema.dbm_user
 (

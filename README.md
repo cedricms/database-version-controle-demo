@@ -21,6 +21,10 @@ The connection parameters are :
 * User Name: (empty)
 * Password: (empty)
 
+**In order to execute the DbMaintain demo, the following script must be run first (sorry, it's a fallback solution) :**
+
+`CREATE SCHEMA dbmaintain_schema;`
+
 ### Connecting to the Docker container
 `./connectToDockerImage.sh`
 
